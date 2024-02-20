@@ -21,7 +21,6 @@ server = app.server
 """
 Helper functions for file parsing and data manipulation
 """
-
 def parse_contents(contents, filename):
     """
     Parses the contents of an uploaded file and extracts the year from the filename.
@@ -172,6 +171,15 @@ learn_text = dcc.Markdown(
     """
 )
 
+upload_text = dcc.Markdown(
+    """
+    To utilise the upload feature of the dashboard, choose two of the available options:
+    1) Visit [Eurostat](https://ec.europa.eu/eurostat/web/lucas/information-data) and select data from the year 2009 onwards.
+    2) For local usage, utilise the preloaded datasets available in the `data/testData` folder.
+
+    """
+)
+
 # Define a footer for the web application with additional information or credit
 footer = html.Div(
     dcc.Markdown(
@@ -305,17 +313,21 @@ def make_stack(df):
                     
     return(fig)  # Return the constructed figure
 
+
+
 """
 Creating Tabs and Cards for Navigation and Layout Structure
 """
 # Tabs for organizing different sections of the application for a cleaner user interface
 
-# ========== Learn Tab Components
+# ========== Overview Tab Components
 # Creating a card for the 'Learn' tab which will contain an overview of the project
 learn_card = dbc.Card(
     [
         dbc.CardHeader("Project Overview"),  # Header/title of the card
         dbc.CardBody(learn_text),  # Body of the card containing the Markdown text about the project overview
+        dbc.CardHeader("Upload Instructions"),  # Header/title of the card
+        dbc.CardBody(upload_text),
     ],
     className="mt-4",  # Margin top for styling, adds space above the card for visual separation
 )
