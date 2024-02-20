@@ -174,7 +174,9 @@ learn_text = dcc.Markdown(
 upload_text = dcc.Markdown(
     """
     To utilise the upload feature of the dashboard, choose two of the available options:
+
     1) Visit [Eurostat](https://ec.europa.eu/eurostat/web/lucas/information-data) and select data from the year 2009 onwards.
+    
     2) For local usage, utilise the preloaded datasets available in the `data/testData` folder.
 
     """
