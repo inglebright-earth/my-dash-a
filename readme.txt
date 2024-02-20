@@ -34,7 +34,7 @@ Note: Due to the limited processing capabilities of the server, you may experien
     -> To use custom datasets, visit https://ec.europa.eu/eurostat/web/lucas/overview. 
        Note: Only datasets from 2009 onwards are compatible.
 
-- Upon executing 'run', the console will display: "Dash is running on http://127.0.0.1:8050/"
+- Upon executing 'run', the console will display: "Dash is running on http://127.0.0.1:8797/"
 - Access the dashboard application by clicking the provided link.
 
 
