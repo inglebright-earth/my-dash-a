@@ -16,6 +16,7 @@ app = Dash(
     __name__,
     external_stylesheets=[dbc.themes.SPACELAB],
 )
+server = app.server
 
 """
 Helper functions for file parsing and data manipulation
