@@ -328,8 +328,8 @@ learn_card = dbc.Card(
     [
         dbc.CardHeader("Project Overview"),  # Header/title of the card
         dbc.CardBody(learn_text),  # Body of the card containing the Markdown text about the project overview
-        dbc.CardHeader("Upload Instructions"),  # Header/title of the card
-        dbc.CardBody(upload_text),
+        dbc.CardHeader("Upload Instructions"),  # Header/title of the upload instructions
+        dbc.CardBody(upload_text), # Body containing information on how to upload data onto dashboard
     ],
     className="mt-4",  # Margin top for styling, adds space above the card for visual separation
 )
@@ -515,4 +515,4 @@ def update_barplot(data):
 
 # Main function to run the Dash app if this script is executed as the main program
 if __name__ == "__main__":
-    app.run_server(debug=True)  # Run the app with debugging enabled
+    app.run_server(debug=True, port = 8797)  # Run the app with debugging enabled

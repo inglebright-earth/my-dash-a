@@ -6,7 +6,9 @@ For a better understanding of my dashboard and its solutions to the automation c
 
 
 #####------------ FOR ONLINE USE OF DASHBOARD ------------#####
-Due to the limited processing capabilities of the server, you may experience slower response times and restricted functionality while using the dashboard online. For a basic overview and quick access, the online version is suitable. However, for optimal performance and full access to all features, I recommend running the dashboard locally by following the instructions provided below.
+- click here to view the dashboard online: https://my-lucas-app.onrender.com
+
+Note: Due to the limited processing capabilities of the server, you may experience slower response times and restricted functionality while using the dashboard online. For a basic overview and quick access, the online version is suitable. However, for optimal performance and full access to all features, I recommend running the dashboard locally by following the instructions provided below.
 
 
 #####------------ INSTRUCTIONS FOR LOCAL USE OF DASHBOARD ------------#####
