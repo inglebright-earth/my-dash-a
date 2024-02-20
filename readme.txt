@@ -1,5 +1,4 @@
 #####------------ OVERVIEW OF DASHBOARD ------------#####
-
 This project leverages Python to automate the classification of LUCAS datasets into categories like forest, shrubland, and agroforestry, streamlining the previously GIS-based process. It features a DASH dashboard for interactive visualisation, allowing users to input LUCAS datasets from 2009 onwards for analysis and visualisation. The tool supports updates with new datasets and data export, enhancing efficiency in studying EU agroforestry patterns.
 
 For a better understanding of my dashboard and its solutions to the automation challenges in geoinformatics, please find the report located in the `SRC` folder.
@@ -12,7 +11,6 @@ Note: Due to the limited processing capabilities of the server, you may experien
 
 
 #####------------ INSTRUCTIONS FOR LOCAL USE OF DASHBOARD ------------#####
-
 ### Download Instruction 
 1. Navigate to the `my-dash-app` repository.
 2. Click on the `<> Code` button and select **Download ZIP** to download the repository to your local machine.
